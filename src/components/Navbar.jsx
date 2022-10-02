@@ -15,6 +15,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="flex items-center justify-evenly w-[28%] text-gray-600">
+        {/* <form className="flex bg-white border border-black rounded-3xl flex-1 h-12 items-center j"> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -29,6 +30,8 @@ export default function Navbar() {
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
           />
         </svg>
+        {/* <input type="text" name="search" id="search" placeholder="enter keyword" />
+        </form> */}
         <h3>Sign in / Sign up</h3>
         <button className="bg-pink-500 px-[12px] py-[9px] text-[15px] font-bold text-white rounded-md hover:bg-pink-400">
           Start a free project
